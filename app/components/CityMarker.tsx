@@ -57,6 +57,9 @@ export default function CityMarker({ location, onMarkerClick, isNewest }: CityMa
     [normal.x, normal.y, normal.z]
   );
 
+  // Pulse runs for first 6 seconds only
+  const pulseDeadline = useRef(6);
+
   useFrame((state) => {
     const cameraDistance = camera.position.length();
     const baseScale = cameraDistance / 6;
@@ -65,12 +68,13 @@ export default function CityMarker({ location, onMarkerClick, isNewest }: CityMa
       pinRef.current.scale.set(baseScale, baseScale, baseScale);
     }
 
-    // Radar pulse animation for newest pin
-    if (pulseRef.current && pulseMaterialRef.current && isNewest) {
-      const t = (state.clock.elapsedTime * 0.5) % 1; // 0-1 cycle, 2 seconds per pulse
-      const pulseScale = baseScale * (0.02 + t * 0.12); // expand from small to large
+    // Radar pulse animation for newest pin — stops after deadline
+    if (pulseRef.current && pulseMaterialRef.current && isNewest && state.clock.elapsedTime < pulseDeadline.current) {
+      const t = (state.clock.elapsedTime * 0.5) % 1;
+      const pulseScale = baseScale * (0.02 + t * 0.12);
       pulseRef.current.scale.set(pulseScale, pulseScale, 1);
-      pulseMaterialRef.current.opacity = 0.4 * (1 - t); // fade out as it expands
+      pulseMaterialRef.current.opacity = 0.4 * (1 - t);
+      state.invalidate();
     }
   });
 

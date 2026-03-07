@@ -1,9 +1,10 @@
 "use client";
 
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import Link from 'next/link';
 import WorldMap from "./WorldMap";
 import CountUp from "./CountUp";
+import SubscribeButton from "./SubscribeButton";
 import type { PostLocation, TravelRoute } from '@/types/blog';
 
 interface TravelStats {
@@ -54,12 +55,19 @@ export default function HomeClient({ locations, routes, stats }: HomeClientProps
               <span className="inline-block w-[1ch] animate-blink">_</span>
             </span>
           </div>
-          <Link
-            href="/blog"
-            className="bg-[#E0E0E0] border-t-2 border-l-2 border-white border-r-2 border-b-2 border-r-[#808080] border-b-[#808080] px-4 sm:px-6 py-2 sm:py-2.5 text-xs font-mono font-bold uppercase tracking-wide active:border-t-[#808080] active:border-l-[#808080] active:border-r-white active:border-b-white shadow-md pointer-events-auto shrink-0"
-          >
-            Archive
-          </Link>
+          <div className="flex gap-2 pointer-events-auto shrink-0">
+            <Link
+              href="/blog"
+              className="bg-[#E0E0E0] border-t-2 border-l-2 border-white border-r-2 border-b-2 border-r-[#808080] border-b-[#808080] px-2.5 sm:px-6 py-2 sm:py-2.5 text-xs font-mono font-bold uppercase tracking-wide active:border-t-[#808080] active:border-l-[#808080] active:border-r-white active:border-b-white shadow-md flex items-center justify-center"
+            >
+              {/* Folder icon on mobile */}
+              <svg className="sm:hidden w-4 h-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M2 4h4l2 2h6v7H2V4z" />
+              </svg>
+              <span className="hidden sm:inline">Archive</span>
+            </Link>
+            <SubscribeButton />
+          </div>
         </div>
       </nav>
       <WorldMap

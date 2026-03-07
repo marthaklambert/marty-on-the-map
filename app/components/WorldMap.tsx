@@ -116,7 +116,7 @@ function CountryBorders({
     return { y: yRotation, x: xRotation };
   }, [locations]);
 
-  useFrame((_, delta) => {
+  useFrame((state, delta) => {
     if (!groupRef.current || hasReachedTarget) return;
 
     const currentY = groupRef.current.rotation.y;
@@ -141,6 +141,7 @@ function CountryBorders({
 
       groupRef.current.rotation.y += normalizedDiffY * lerpFactor;
       groupRef.current.rotation.x += diffX * lerpFactor;
+      state.invalidate();
     }
   });
 
@@ -247,13 +248,20 @@ function Globe({
 
 function CameraController({
   targetPositionRef,
-  targetLookAtRef
+  targetLookAtRef,
+  invalidateRef,
 }: {
   targetPositionRef: React.MutableRefObject<THREE.Vector3 | null>;
   targetLookAtRef: React.MutableRefObject<THREE.Vector3 | null>;
+  invalidateRef: React.MutableRefObject<(() => void) | null>;
 }) {
-  const { camera } = useThree();
+  const { camera, invalidate } = useThree();
   const hasInitialized = useRef(false);
+
+  // Expose invalidate to parent
+  useEffect(() => {
+    invalidateRef.current = invalidate;
+  }, [invalidate, invalidateRef]);
 
   // Zoom out on mobile on initial mount
   useEffect(() => {
@@ -298,6 +306,7 @@ function CameraController({
         controls.target.lerp(targetLookAt, lerpFactor);
         controls.update();
       }
+      state.invalidate();
     }
   });
 
@@ -320,6 +329,7 @@ export default function WorldMap({
   const [isTooltipClosing, setIsTooltipClosing] = useState(false);
   const targetCameraPositionRef = useRef<THREE.Vector3 | null>(null);
   const targetCameraLookAtRef = useRef<THREE.Vector3 | null>(null);
+  const invalidateRef = useRef<(() => void) | null>(null);
   const controlsRef = useRef<any>(null);
   const isDraggingRef = useRef(false);
   const dragCountRef = useRef(0);
@@ -403,6 +413,7 @@ export default function WorldMap({
     // Use refs for immediate update without waiting for React render
     targetCameraPositionRef.current = newCameraPosition;
     targetCameraLookAtRef.current = point;
+    invalidateRef.current?.();
   };
 
   const handleControlsStart = () => {
@@ -446,7 +457,7 @@ export default function WorldMap({
         ))}
       </div>
 
-      <Canvas camera={{ position: [0, 0, 6], fov: 45 }}>
+      <Canvas camera={{ position: [0, 0, 6], fov: 45 }} frameloop="demand">
         <ambientLight intensity={0.4} />
         <directionalLight position={[5, 5, 5]} intensity={1} />
         {geoJSON && (
@@ -469,6 +480,7 @@ export default function WorldMap({
         <CameraController
           targetPositionRef={targetCameraPositionRef}
           targetLookAtRef={targetCameraLookAtRef}
+          invalidateRef={invalidateRef}
         />
       </Canvas>
       {selectedLocation && tooltipPosition && (() => {
@@ -526,13 +538,13 @@ export default function WorldMap({
             <div className="bg-[#ECECEC] border-t-[3px] border-l-[3px] border-white border-r-[3px] border-b-[3px] border-r-[#808080] border-b-[#808080] p-2">
               {/* Image in recessed frame */}
               <div className="relative border-t-[3px] border-l-[3px] border-[#808080] border-r-[3px] border-b-[3px] border-r-white border-b-white">
-                <div className="relative h-36 bg-gray-200">
+                <div className="relative h-36 bg-gray-200 overflow-hidden">
                   <Image
                     src={selectedLocation.coverImage}
                     alt={selectedLocation.city}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 384px) 100vw, 384px"
+                    width={384}
+                    height={144}
+                    className="object-cover w-full h-full"
                   />
                 </div>
                 {/* Close button */}

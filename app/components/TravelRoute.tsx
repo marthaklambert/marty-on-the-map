@@ -64,9 +64,11 @@ export default function TravelRoute({ route, index }: TravelRouteProps) {
 
   const curvePoints = createCurvedPath(fromPos, toPos);
 
-  // Animate the color with a ripple effect
+  // Animate the color with a ripple effect — stops after 6 seconds
+  const shimmerDeadline = useRef(6);
+
   useFrame((state) => {
-    if (lineRef.current) {
+    if (lineRef.current && state.clock.elapsedTime < shimmerDeadline.current) {
       const time = state.clock.elapsedTime;
       // Stagger animation for each route
       const offset = index * 0.5;
@@ -78,6 +80,7 @@ export default function TravelRoute({ route, index }: TravelRouteProps) {
 
       const currentColor = baseColor.clone().lerp(shineColor, wave * 0.6); // Shimmer effect
       lineRef.current.material.color = currentColor;
+      state.invalidate();
     }
   });
 
