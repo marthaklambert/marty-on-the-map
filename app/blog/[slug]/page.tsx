@@ -88,7 +88,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         {/* Post content */}
         <div
-          className="prose prose-lg max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-black prose-p:text-gray-700 prose-p:leading-relaxed prose-a:text-[#E03030] prose-a:no-underline hover:prose-a:underline prose-strong:text-black prose-blockquote:border-l-[#FCC0DB] prose-blockquote:border-l-[3px] prose-blockquote:bg-[#ECECEC] prose-blockquote:py-1 prose-blockquote:px-4 prose-figure:my-8 prose-img:m-0 prose-img:rounded-none"
+          className="prose prose-lg max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-black prose-p:text-gray-700 prose-p:leading-relaxed prose-a:text-[#E03030] prose-a:no-underline hover:prose-a:underline prose-strong:text-black prose-blockquote:border-l-[#FCC0DB] prose-blockquote:border-l-[3px] prose-blockquote:bg-[#ECECEC] prose-blockquote:py-1 prose-blockquote:px-4 prose-figure:my-8 prose-img:m-0 prose-img:rounded-none prose-ul:marker:text-[#FCC0DB]"
           style={{ fontFamily: 'Tahoma, Verdana, -apple-system, sans-serif' }}
           dangerouslySetInnerHTML={{ __html: post.htmlContent }}
         />

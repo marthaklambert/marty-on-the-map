@@ -59,4 +59,12 @@ button, a, [role="button"] {
   animation: blink 1s step-end infinite;
 }
 
+/* Pink bullet markers, dark numbered markers */
+.prose ul > li::marker {
+  color: var(--accent-pink) !important;
+}
+.prose ol > li::marker {
+  color: var(--foreground) !important;
+}
+
 /* Grain texture overlay — applied via GrainOverlay component */

@@ -39,7 +39,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     // Convert markdown to HTML
     const processedContent = await remark()
       .use(gfm)
-      .use(html)
+      .use(html, { sanitize: false })
       .process(content);
 
     // Wrap <img> tags in card-style figure elements with bevelled frames and captions

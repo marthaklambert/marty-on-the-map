@@ -442,7 +442,7 @@ export default function WorldMap({
   };
 
   return (
-    <div className={`w-full h-screen bg-[#FAF8F3] overflow-hidden transition-opacity duration-500 ${geoJSON ? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`w-full h-dvh bg-[#FAF8F3] overflow-hidden transition-opacity duration-500 ${geoJSON ? 'opacity-100' : 'opacity-0'}`}>
       {/* Preload all cover images — visually hidden but still loaded */}
       <div className="absolute w-0 h-0 overflow-hidden" aria-hidden="true">
         {locations.map((location) => (
