@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         {/* Cover image card */}
         <div className="bg-[#ECECEC] border border-[#D0D0D0] p-2.5">
           <div className="border-t-[3px] border-l-[3px] border-[#808080] border-r-[3px] border-b-[3px] border-r-white border-b-white">
-            <div className="relative h-96 bg-gray-200">
+            <div className="relative w-full bg-gray-200" style={{aspectRatio: post.tallCoverImage ?.startsWith('tall|') ? '4/5' : '3/2', maxHeight: post.tallCoverImage?.startsWith('tall|') ? '600px' : '480px'}}>
               <Image
                 src={post.coverImage}
                 alt={post.city}

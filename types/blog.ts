@@ -7,6 +7,7 @@ export interface PostFrontmatter {
   lon: number;
   excerpt: string;
   coverImage: string;
+  tallCoverImage: boolean;
   images?: (string | { src: string; caption?: string })[];
   tags?: string[];
 }

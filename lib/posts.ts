@@ -42,6 +42,14 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       .use(html, { sanitize: false })
       .process(content);
 
+
+    const isPortrait = alt.startsWith('portrait|');
+    const caption = isPortrait ? alt.replace('portrait|', '') : alt;
+
+    const imgStyle = isPortrait ? 
+      'width: 100%; max-width: 380px; display: block; margin: 0 auto !important; border: none !important;' : 
+      'width: 100%; display: block; margin: 0 !important; border: none !important;';
+
     // Wrap <img> tags in card-style figure elements with bevelled frames and captions
     const htmlContent = processedContent.toString().replace(
       /<p><img src="([^"]*)" alt="([^"]*)"\s*\/?><\/p>/g,
@@ -51,7 +59,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
           : '';
         return `<figure style="margin: 2em 0 !important; background: #ECECEC; border: 1px solid #D0D0D0; padding: 10px;">
           <div style="border-top: 3px solid #808080; border-left: 3px solid #808080; border-right: 3px solid white; border-bottom: 3px solid white;">
-            <img src="${src}" alt="${alt}" style="width: 100%; display: block; margin: 0 !important; border: none !important;" />
+            <img src="${src}" alt="${alt}" style="${imgStyle}" />
           </div>
           ${caption}
         </figure>`;
@@ -70,6 +78,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       lon: data.lon,
       excerpt: data.excerpt,
       coverImage: data.coverImage,
+      tallCoverImage: data.tallCoverImage
       images: data.images || [],
       tags: data.tags || [],
     };
