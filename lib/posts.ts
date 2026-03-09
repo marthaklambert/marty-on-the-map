@@ -78,7 +78,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       lon: data.lon,
       excerpt: data.excerpt,
       coverImage: data.coverImage,
-      tallCoverImage: data.tallCoverImage
+      tallCoverImage: data.tallCoverImage,
       images: data.images || [],
       tags: data.tags || [],
     };
