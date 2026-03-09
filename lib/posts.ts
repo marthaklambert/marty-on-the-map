@@ -121,7 +121,7 @@ export async function getTravelStats(): Promise<{ cities: number; countries: num
 
   const dates = posts.map(p => new Date(p.date).getTime());
   const earliest = Math.min(...dates);
-  const latest = Math.max(...dates);
+  const latest = Date.now();
   const days = Math.round((latest - earliest) / (1000 * 60 * 60 * 24));
 
   return { cities, countries, days };
