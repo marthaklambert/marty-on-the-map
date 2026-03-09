@@ -538,12 +538,12 @@ export default function WorldMap({
             <div className="bg-[#ECECEC] border-t-[3px] border-l-[3px] border-white border-r-[3px] border-b-[3px] border-r-[#808080] border-b-[#808080] p-2">
               {/* Image in recessed frame */}
               <div className="relative border-t-[3px] border-l-[3px] border-[#808080] border-r-[3px] border-b-[3px] border-r-white border-b-white">
-                <div className="relative h-36 bg-gray-200 overflow-hidden">
+                <div className="relative h-64 bg-gray-200 overflow-hidden">
                   <Image
                     src={selectedLocation.coverImage}
                     alt={selectedLocation.city}
                     width={384}
-                    height={144}
+                    height={256}
                     className="object-cover w-full h-full"
                   />
                 </div>
