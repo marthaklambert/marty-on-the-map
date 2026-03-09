@@ -42,21 +42,24 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       .use(html, { sanitize: false })
       .process(content);
 
-
-    const isPortrait = alt.startsWith('portrait|');
-    const caption = isPortrait ? alt.replace('portrait|', '') : alt;
-
-    const imgStyle = isPortrait ? 
-      'width: 100%; max-width: 380px; display: block; margin: 0 auto !important; border: none !important;' : 
-      'width: 100%; display: block; margin: 0 !important; border: none !important;';
-
     // Wrap <img> tags in card-style figure elements with bevelled frames and captions
     const htmlContent = processedContent.toString().replace(
       /<p><img src="([^"]*)" alt="([^"]*)"\s*\/?><\/p>/g,
       (_match, src, alt) => {
-        const caption = alt
-          ? `<figcaption style="font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(0,0,0,0.7); padding: 8px 0 0 0; margin: 0;">${alt}</figcaption>`
+          
+    const isPortrait = alt.startsWith('portrait|');
+    const captionContent = isPortrait ? alt.replace('portrait|', '') : alt;
+
+
+    const caption = alt
+          ? `<figcaption style="font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(0,0,0,0.7); padding: 8px 0 0 0; margin: 0;">${captionContent}</figcaption>`
           : '';
+      
+      
+    const imgStyle = isPortrait ? 
+      'width: 100%; max-width: 380px; display: block; margin: 0 auto !important; border: none !important;' : 
+      'width: 100%; display: block; margin: 0 !important; border: none !important;';
+        
         return `<figure style="margin: 2em 0 !important; background: #ECECEC; border: 1px solid #D0D0D0; padding: 10px;">
           <div style="border-top: 3px solid #808080; border-left: 3px solid #808080; border-right: 3px solid white; border-bottom: 3px solid white;">
             <img src="${src}" alt="${alt}" style="${imgStyle}" />
