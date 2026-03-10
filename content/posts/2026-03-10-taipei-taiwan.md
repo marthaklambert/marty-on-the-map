@@ -1,22 +1,21 @@
 ---
 title: "Taipei"
-date: "2026-03-10“
+date: "2026-03-10"
 city: "Taipei"
-country: “Taiwan"
+country: "Taiwan"
 lat: 25.0375
 lon: 121.5625
 excerpt: "It’s the year of the horse and we’re living it"
 coverImage: "/images/posts/taipei/1.jpeg"
 tallCoverImage: true
 images:
-   - "/images/posts/taipei/1.jpeg"
-   - “/images/posts/taipei/2.jpeg”
-   - “/images/posts/taipei/3.jpeg”
-   - “/images/posts/taipei/4.jpeg”
-   - “/images/posts/taipei/5.jpeg”
-   - “/images/posts/taipei/6.jpeg”
-   - “/images/posts/taipei/7.png”
-
+  - "/images/posts/taipei/1.jpeg"
+  - “/images/posts/taipei/2.jpeg”
+  - “/images/posts/taipei/3.jpeg”
+  - “/images/posts/taipei/4.jpeg”
+  - “/images/posts/taipei/5.jpeg”
+  - “/images/posts/taipei/6.jpeg”
+  - “/images/posts/taipei/7.png”  
 ---
 
 We made it to Taipei and out the other side. It’s been a dreamy start to the trip. I’m on train to Tainan as I write this (it’s a good train).   
