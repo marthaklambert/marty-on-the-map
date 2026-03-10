@@ -6,16 +6,18 @@ country: "Taiwan"
 lat: 25.0375
 lon: 121.5625
 excerpt: "It’s the year of the horse and we’re living it"
-coverImage: "/images/posts/taipei/1.jpeg"
+coverImage: "/images/posts/taipei/1.jpg"
 tallCoverImage: true
 images:
-  - "/images/posts/taipei/1.jpeg"
-  - “/images/posts/taipei/2.jpeg”
-  - “/images/posts/taipei/3.jpeg”
-  - “/images/posts/taipei/4.jpeg”
-  - “/images/posts/taipei/5.jpeg”
-  - “/images/posts/taipei/6.jpeg”
-  - “/images/posts/taipei/7.png”  
+  - "/images/posts/taipei/1.jpg"
+  - “/images/posts/taipei/2.jpg”
+  - “/images/posts/taipei/3.jpg”
+  - “/images/posts/taipei/4.jpg”
+  - “/images/posts/taipei/5.jpg”
+  - “/images/posts/taipei/6.jpg”
+  - “/images/posts/taipei/7.jpg”  
+  - "/images/posts/taipei/8.jpg
+  - "/images/posts/taipei/9.jpg"  
 ---
 
 We made it to Taipei and out the other side. It’s been a dreamy start to the trip. I’m on train to Tainan as I write this (it’s a good train).   
@@ -23,7 +25,7 @@ We made it to Taipei and out the other side. It’s been a dreamy start to the t
 ### Year of the horse
 First it feels relevant to say that I’ve decided I’m so locked into the year of the horse right now. Taipei is so horse themed it’s unreal. Fire horse makes it even cooler. I’ve never been a horse person because I found them too big and freaky and countryside vibes, but I’ve really changed my tune. That is actually so relevant as well because the year of the fire horse means rapidly changing things and passion. Maybe I’m channeling that into my feelings about horses.   
 
-![Horse mode](/images/posts/taipei/horse.jpeg)
+![Horse mode](/images/posts/taipei/horse.jpg)
 
 ### What we ate 
 Food gets a dedicated section, it was the primary agenda item every day. Everything has slapped honestly, but we’ve settled on a tight top 3: 
@@ -32,7 +34,7 @@ Food gets a dedicated section, it was the primary agenda item every day. Everyth
    - I didn’t think a donut could taste milky without being dipped in it, I literally don’t even like milk. I was so wrong, milky donut is the only donut I ever want now. 
  
 
-![Milky](/images/posts/taipei/donut.jpeg)
+![Milky](/images/posts/taipei/donut.jpg)
   
 2. **Pork rice breakfast**
    - Gooey pork belly mushroom rice sounds conceptually wild for breakfast but when it’s a lil rainy outside it is so good. We had this at Wang’s broth, Mr Wang definitely knows his broth.   Accompanied by sweet potato leaves which I’ve never tried, but were giving a kinda nice spinachy energy. Vitamins achieved. 
@@ -48,7 +50,7 @@ The one thing I can’t be a legend about it stinky tofu. I always feel like I�
 1. **Everything is cute** 
     - Taipei is full of cute shit and I love to notice cute shit. We have spent most of our days mooching around pointing at silly things. There is frogs on the lamp posts, blow up cats everywhere, and everyone has a zillion little fluffy bag charms, all the dudes included. 
  
-![Even the manhole covers are cute](/images/posts/taipei/manhole.jpeg)
+![Even the manhole covers are cute](/images/posts/taipei/manhole.jpg)
  
 2. **Brainrot mountain** 
     - The brainrot phone vibes are so real when people are walking about. We walked up elephant mountain (more of a hill tbh) and spent the entire time behind someone playing TikTok’s out loud whilst climbing up steep steps. It was honestly a skill to navigate whilst scrolling.    
