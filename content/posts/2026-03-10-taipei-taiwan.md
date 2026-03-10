@@ -9,15 +9,22 @@ excerpt: "It’s the year of the horse and we’re living it"
 coverImage: "/images/posts/taipei/1.jpg"
 tallCoverImage: true
 images:
-  - "/images/posts/taipei/1.jpg"
-  - “/images/posts/taipei/2.jpg”
-  - “/images/posts/taipei/img3.jpg”
-  - “/images/posts/taipei/img4.jpg”
-  - “/images/posts/taipei/img5.jpg”
-  - “/images/posts/taipei/img6.jpg”
-  - “/images/posts/taipei/img7.jpg”
-  - "/images/posts/taipei/8.jpg"
-  - "/images/posts/taipei/9.jpg"
+    - src: "/images/posts/taipei/1.jpg"
+      caption: "Beef noodle soup with mustard greens"
+    - src: "/images/posts/taipei/2.jpg"
+      caption: "He drew a hand of 4 aces I think he cheated"
+    - src: "/images/posts/taipei/img3.jpg"
+      caption: "View fof Taipei 101 from Elephant Mountain"
+    - src: "/images/posts/taipei/img4.jpg"
+      caption: "Walking down the mountain"
+    - src: "/images/posts/taipei/img5.jpg"
+      caption: "A large glass"
+    - src: "/images/posts/taipei/img7.jpg"
+      caption: "Our fortunes"
+    - src: "/images/posts/taipei/8.jpg"
+      caption: "Intruiging"
+    - src: "/images/posts/taipei/9.jpg"
+      caption: "Interesting tea translation"
   
 ---
 
@@ -38,7 +45,11 @@ Food gets a dedicated section, it was the primary agenda item every day. Everyth
 ![Milky](/images/posts/taipei/donut.jpg)
   
 2. **Pork rice breakfast**
-   - Gooey pork belly mushroom rice sounds conceptually wild for breakfast but when it’s a lil rainy outside it is so good. We had this at Wang’s broth, Mr Wang definitely knows his broth.   Accompanied by sweet potato leaves which I’ve never tried, but were giving a kinda nice spinachy energy. Vitamins achieved. 
+   - Gooey pork belly mushroom rice sounds conceptually wild for breakfast but when it’s a lil rainy outside it is so good. We had this at Wang’s broth, Mr Wang definitely knows his broth.   Accompanied by sweet potato leaves which I’ve never tried, but were giving a kinda nice spinachy energy. Vitamins achieved.
+
+
+![Porky](/images/posts/taipei/img6.jpg)
+
 3. **Winter melon beer**
    - We went all in on fun drinks in Taipei - had a wine with notes of roasted jujube, a cocktail with fermented rice. George ordered the winter melon beer and it was just: really good, maybe a little smoky?  I don’t know how to describe winter melon or what it is, but I think it’s good. 
 

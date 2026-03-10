@@ -118,32 +118,34 @@ export default function PhotoGallery({ images, alt }: PhotoGalleryProps) {
           onClick={close}
         >
           <div
-            className="bg-[#ECECEC] border-t-[3px] border-l-[3px] border-white border-r-[3px] border-b-[3px] border-r-[#808080] border-b-[#808080] max-w-4xl w-full p-2"
+            className="bg-[#ECECEC] border-t-[3px] border-l-[3px] border-white border-r-[3px] border-b-[3px] border-r-[#808080] border-b-[#808080] max-w-5xl w-auto max-h-[90vh] p-2 flex flex-col items-center"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Image in inset frame */}
-            <div className="border-t-[3px] border-l-[3px] border-[#808080] border-r-[3px] border-b-[3px] border-r-white border-b-white">
-              <div className="relative w-full bg-[#ECECEC]" style={{ aspectRatio: '4/3' }}>
+            <div className="border-t-[3px] border-l-[3px] border-[#808080] border-r-[3px] border-b-[3px] border-r-white border-b-white flex items-center justify-center w-full h-full max-h-[80vh] max-w-[80vw]">
+              <div className="relative w-auto h-auto max-h-[75vh] max-w-[75vw] flex items-center justify-center">
                 <Image
                   src={selected.src}
                   alt={selected.caption || alt}
-                  fill
-                  className="object-cover"
+                  fill={false}
+                  width={1200}
+                  height={900}
+                  className="object-contain w-auto h-auto max-h-[75vh] max-w-[75vw]"
+                  sizes="(max-width: 1200px) 100vw, 1200px"
+                  priority
                 />
               </div>
             </div>
 
             {/* Caption and nav */}
-            <div className="px-1 pt-2 sm:pt-3 pb-1 flex items-center justify-between">
-              <div>
-                <div className="text-[9px] font-mono font-bold uppercase tracking-[0.2em] text-black/50">
-                  📍 {selected.caption || `${alt} - Photo ${selectedIndex! + 1}`}
-                </div>
-                <div className="text-[9px] font-mono text-black/30 uppercase tracking-wide mt-0.5">
-                  {selectedIndex! + 1} of {normalized.length}
-                </div>
+            <div className="px-1 pt-2 sm:pt-3 pb-1 flex flex-col items-center w-full">
+              <div className="text-[9px] font-mono font-bold uppercase tracking-[0.2em] text-black/50 text-center w-full mb-1">
+                📍 {selected.caption || `${alt} - Photo ${selectedIndex! + 1}`}
               </div>
-              <div className="flex gap-2">
+              <div className="text-[9px] font-mono text-black/30 uppercase tracking-wide mb-2 text-center w-full">
+                {selectedIndex! + 1} of {normalized.length}
+              </div>
+              <div className="flex gap-2 justify-center w-full">
                 <button
                   onClick={goPrev}
                   className="bg-[#E0E0E0] border-t-2 border-l-2 border-white border-r-2 border-b-2 border-r-[#808080] border-b-[#808080] px-3 sm:px-4 py-1.5 text-xs font-mono font-bold active:border-t-[#808080] active:border-l-[#808080] active:border-r-white active:border-b-white"
