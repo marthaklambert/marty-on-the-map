@@ -10,7 +10,7 @@ coverImage: "/images/posts/taipei/1.jpg"
 tallCoverImage: true
 images:
   - "/images/posts/taipei/1.jpg"
-  - “/images/posts/taipei/img2.jpg”
+  - “/images/posts/taipei/2.jpg”
   - “/images/posts/taipei/img3.jpg”
   - “/images/posts/taipei/img4.jpg”
   - “/images/posts/taipei/img5.jpg”
