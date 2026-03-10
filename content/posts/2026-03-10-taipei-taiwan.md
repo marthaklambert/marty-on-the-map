@@ -10,12 +10,12 @@ coverImage: "/images/posts/taipei/1.jpg"
 tallCoverImage: true
 images:
   - "/images/posts/taipei/1.jpg"
-  - “/images/posts/taipei/2.jpg”
-  - “/images/posts/taipei/3.jpg”
-  - “/images/posts/taipei/4.jpg”
-  - “/images/posts/taipei/5.jpg”
-  - “/images/posts/taipei/6.jpg”
-  - “/images/posts/taipei/7.jpg”
+  - “/images/posts/taipei/img2.jpg”
+  - “/images/posts/taipei/img3.jpg”
+  - “/images/posts/taipei/img4.jpg”
+  - “/images/posts/taipei/img5.jpg”
+  - “/images/posts/taipei/img6.jpg”
+  - “/images/posts/taipei/img7.jpg”
   - "/images/posts/taipei/8.jpg"
   - "/images/posts/taipei/9.jpg"
   
