@@ -15,9 +15,10 @@ images:
   - “/images/posts/taipei/4.jpg”
   - “/images/posts/taipei/5.jpg”
   - “/images/posts/taipei/6.jpg”
-  - “/images/posts/taipei/7.jpg”  
-  - "/images/posts/taipei/8.jpg
-  - "/images/posts/taipei/9.jpg"  
+  - “/images/posts/taipei/7.jpg”
+  - "/images/posts/taipei/8.jpg"
+  - "/images/posts/taipei/9.jpg"
+  
 ---
 
 We made it to Taipei and out the other side. It’s been a dreamy start to the trip. I’m on train to Tainan as I write this (it’s a good train).   
