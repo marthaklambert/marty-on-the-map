@@ -60,7 +60,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       'width: 100%; max-width: 380px; display: block; margin: 0 auto !important; border: none !important;' : 
       'width: 100%; display: block; margin: 0 !important; border: none !important;';
         
-        return `<figure style="margin: 2em 0 !important; background: #ECECEC; border: 1px solid #D0D0D0; padding: 10px;">
+        return `<figure style="margin: 2em auto !important; max-width: fit-content; background: #ECECEC; border: 1px solid #D0D0D0; padding: 10px;">
           <div style="border-top: 3px solid #808080; border-left: 3px solid #808080; border-right: 3px solid white; border-bottom: 3px solid white;">
             <img src="${src}" alt="${alt}" style="${imgStyle}" />
           </div>
