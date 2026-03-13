@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   return {
-    title: `${post.title} - ${post.city}`,
+    title: `${post.title} - ${post.coordinates?.[0]?.city ?? ''}`,
     description: post.excerpt,
   };
 }
@@ -64,7 +64,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             <div className="relative w-full bg-gray-200" style={{aspectRatio: post.tallCoverImage ? '4/5' : '3/2', maxHeight: post.tallCoverImage ? '600px' : '480px'}}>
               <Image
                 src={post.coverImage}
-                alt={post.city}
+                alt={post.coordinates?.[0]?.city ?? ''}
                 fill
                 className="object-cover"
                 priority
@@ -72,7 +72,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             </div>
           </div>
           <p className="font-mono text-[11px] font-bold uppercase tracking-[0.15em] text-black/70 pt-2 px-0.5">
-            📍 {post.city}, {post.country}
+            📍 {post.coordinates?.[0]?.city ?? ''}, {post.coordinates?.[0]?.country ?? ''}
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         {post.images && post.images.length > 0 && (
           <div className="mt-10 pt-8 border-t-[3px] border-[#ECECEC]">
             <h2 className="text-xl font-display font-bold text-black mb-4">Photo Gallery</h2>
-            <PhotoGallery images={post.images} alt={post.city} />
+            <PhotoGallery images={post.images} alt={post.coordinates?.[0]?.city ?? ''} />
           </div>
         )}
       </article>
