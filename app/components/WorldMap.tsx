@@ -202,32 +202,29 @@ function CountryBorders({
           <TravelRoute key={`route-${index}`} route={route} index={index} />
         ))}
         {/* City markers */}
-        {locations.map((location, index) => {
-          // Find the most recent location by date, but only the first occurrence of each slug
-          const uniqueLocations = locations.reduce((acc: PostLocation[], loc) => {
-            if (!acc.find(l => l.slug === loc.slug)) {
-              acc.push(loc);
-            }
-            return acc;
-          }, []);
-
-          const newestLocation = uniqueLocations.reduce((latest, current) => {
+        {(() => {
+          // Find the most recent post (by date)
+          const newestPost = locations.reduce((latest, current) => {
             return new Date(current.date) > new Date(latest.date) ? current : latest;
-          }, uniqueLocations[0]);
+          }, locations[0]);
 
-          // Only mark the first occurrence of the newest post as newest
-          const isNewest = location.slug === newestLocation.slug && 
-            locations.findIndex(l => l.slug === newestLocation.slug) === index;
+          // Find all locations belonging to the newest post (by slug)
+          const newestPostLocations = locations.filter(l => l.slug === newestPost.slug);
+          // The last coordinate for the newest post
+          const lastNewestLocation = newestPostLocations[newestPostLocations.length - 1];
 
-          return (
-            <CityMarker
-              key={`${location.slug}-${location.lat}-${location.lon}-${index}`}
-              location={location}
-              onMarkerClick={onMarkerClick}
-              isNewest={isNewest}
-            />
-          );
-        })}
+          return locations.map((location, index) => {
+            const isNewest = location === lastNewestLocation;
+            return (
+              <CityMarker
+                key={`${location.slug}-${location.lat}-${location.lon}-${index}`}
+                location={location}
+                onMarkerClick={onMarkerClick}
+                isNewest={isNewest}
+              />
+            );
+          });
+        })()}
       </group>
     </>
   );
