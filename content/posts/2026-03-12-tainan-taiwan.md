@@ -1,18 +1,13 @@
 ---
 title: "Tainan to Taitung"
-date: "2026-03-13"
+date: "2026-03-10"
+city: "Tainan to Taitung"
+country: "Taiwan"
+lat: 22.99
+lon: 120.185
 excerpt: "Team Taiwan Ultras"
 coverImage: "/images/posts/tainan/cover.jpeg"
 tallCoverImage: true
-coordinates:
-  - city: "Tainan"
-    country: "Taiwan"
-    lat: 22.99
-    lon: 120.185
-  - city: "Taitung"
-    country: "Taiwan"
-    lat: 22.7583
-    lon: 121.144
 images:
     - src: "/images/posts/tainan/cover.jpeg"
       caption: "anping fort in the sun"
@@ -81,23 +76,28 @@ This ride was offset by a wild meal at the end in an industrial fishing port. Fr
 ### What else did we eat? 
 This feels necessary because we've been racking them up. A few notable items: 
 
-1. **Sugar cane juice**
+1. **Melon shaved ice**
+    - This has been on my list the entire trip but I’ve been saving it because it wasn’t gonna hit in rainy Taipei. Omg this was genuinely so good, it was the perfect mega light cold refreshing airy fresh vibe. I think it’s ice mixed with condensed milk, gonna dream about this one for a while.  
+ 
+![melon time](/images/posts/tainan/melon.jpeg)
+  
+2. **Sugar cane juice**
     - I told George we needed to try this, he said isn't it just sugary water. He wasn’t wrong. I imagine it's like crack for bumble bees. It has a subtle tasty flavour though and it grew on me. 
 
-2. **Pork rice breakfast 2.0: EGG MODE**
+3. **Pork rice breakfast 2.0: egg mode**
     - We just keep coming back for more of this, but it turns out the real meta was getting it with a runny yolk egg on top. Genuinely wildly good, and the egg really overrode my qualms about it not feeling breakfasty. 
 
-3. **Salt and pepper everything**
-    - About 1 in 3 things we've eaten have been salt and pep flavoured (as in spice bag or chips from the chinese, not table salt and black pepper). The wild thing is you'll get a plate with a mound of seasoning on the side to make salt and pepper stuff more salt and peppery. 
+4. **Salt and pepper everything**
+    - About 1 in 3 things we've eaten have been salt and pep flavoured (as in spice bag or chips from the chinese, not table salt and black pepper). Omelette, squid, chicken, they’re slapping it on. The wild thing is you'll get a plate with a mound of seasoning on the side to make salt and pepper stuff more salt and peppery. 
 
-4. **Chicken butt**
+5. **Chicken butt**
     - This wasn't necessarily planned, but we realised our skewer was chicken butt mid way through eating and translating a menu. No regrets, was juicy.
     
 
 ![Juicy butts](/images/posts/tainan/butt.jpeg)
   
 ### See you on the other side
-Tomorrow we start our intrepid cycling battle against wind and flat tires - I’ll report back when I make it to the other side. In the meantime, here are the answers to a couple FAQs from you guys. 
+Tomorrow we start our intrepid cycling battle against wind and flat tires - I’ll report back when I make it to the other side. In the meantime, we’ve been carb loading on pints while listening to some geezers sing karaoke in various establishments. I’ll leave you with the answers to a couple FAQs from you guys. 
 
 
 **FAQs**   
