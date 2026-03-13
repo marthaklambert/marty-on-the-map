@@ -1,13 +1,18 @@
 ---
 title: "Tainan to Taitung"
-date: "2026-03-10"
-city: "Tainan to Taitung"
-country: "Taiwan"
-lat: 22.99
-lon: 120.185
+date: "2026-03-13"
 excerpt: "Team Taiwan Ultras"
 coverImage: "/images/posts/tainan/cover.jpeg"
 tallCoverImage: true
+coordinates:
+  - city: "Tainan"
+    country: "Taiwan"
+    lat: 22.99
+    lon: 120.185
+  - city: "Taitung"
+    country: "Taiwan"
+    lat: 22.7583
+    lon: 121.144
 images:
     - src: "/images/posts/tainan/cover.jpeg"
       caption: "anping fort in the sun"

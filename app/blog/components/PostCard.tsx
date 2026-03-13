@@ -16,7 +16,7 @@ export default function PostCard({ post }: PostCardProps) {
           <div className="relative h-48 bg-gray-200">
             <Image
               src={post.coverImage}
-              alt={post.city}
+              alt={post.coordinates[0]?.city || post.title}
               fill
               className="object-cover"
             />
@@ -26,7 +26,7 @@ export default function PostCard({ post }: PostCardProps) {
         {/* Details */}
         <div className="px-2gre pt-3 pb-2">
           <div className="text-[9px] font-mono font-bold uppercase tracking-[0.2em] mb-1">
-            📍 <span className="text-black/50">{post.city}, {post.country}</span>
+            📍 <span className="text-black/50">{post.coordinates[0]?.city}, {post.coordinates[0]?.country}</span>
           </div>
           <h2 className="text-base font-display font-bold text-black leading-tight mb-1">
             {post.title}
