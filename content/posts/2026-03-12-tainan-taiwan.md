@@ -26,7 +26,7 @@ images:
 The sun came out!!! We've just spent a couple nights in Tainan (the old capital, a chill vibe) and Taitung (east coast, where we depart on our cycle trip). There's been some cool stuff along the way that I’ll tell you about. 
 
 
-### Tree lore
+### Banyan tree lore
 The nature in Tainan was soooo gorg. I'm particularly mad into the Banyan trees - they're everywhere. They feel like they contain some truly ancient forest wisdom - they have wild root systems and super droopy drapey aerial roots that give mystic magic energy. 
 
 Tainan is the home of the original capital of Taiwan, so there was a load of historical sights to mooch about, but the trees and plants were my favourite bit of all the forts and buildings - they've grown everywhere and made it feel like another planet. 
@@ -34,12 +34,12 @@ Tainan is the home of the original capital of Taiwan, so there was a load of his
 
 ![Flowers in Anping](/images/posts/tainan/flowers.jpeg)
 
-Taiwanese proverbs say that the Banyan tree wood is terrible for any useful job like building or burning, so they get left to grow. That means they get big and leafy, and end up being useful for shade - it basically teaches that everyone is good for something. Wholesome I guess?   
+Taiwanese lore say that the Banyan tree wood is terrible for any useful job like building or burning, so they get left to grow. That means they get big and leafy, and end up being useful for shade - it basically teaches that everyone is good for something. Wholesome I guess?   
 
 ![Banyan trees taking over an old warehouse](/images/posts/tainan/banyan.jpeg)
 
 ### Cool shit that Taiwanese people love
-My next musings are on shit that people here are really into that is interesting. I love when people are really into a particular thing that I have never cared about before. 
+I love when people are really into a particular thing that I have never cared about before and Taiwan has so much of that. 
 
 1. **Baseball**
     - If you're not already a Team Taiwan ultra, get to know. We were in Tainan for the WBC (world baseball classic) and spent our last night in a bar with diehard Team Taiwan fans commiserating getting knocked out. They shared their dinner with us, said George looked 18 years old, and taught us the Team Taiwan dance ([it slaps, check it out](https://youtu.be/u3V_uAiMZKY?si=3Kqqzbd0xRPXGh35)).  
@@ -56,7 +56,7 @@ My next musings are on shit that people here are really into that is interesting
 ![An IRL capybara baby](/images/posts/tainan/capybara.jpeg)
 
 3. **Claw machines**
-I thought these were big in Japan but I can't describe the quantity of claws at every street corner. There's claw machine alleyways open 24h everywhere you look, and they're never accompanied by other arcade games. Taiwan is a country of purists I guess. My favourite part has been the wild and wacky shit that goes in some of them - a 9 pack of toilet roll, a tub of laundry detergent, a carton of milk (UHT I hope), or many capybaras (ofc). 
+    - I thought these were big in Japan but I can’t describe the quantity of claws at every street corner. There’s claw machine alleyways open 24h everywhere you look, and they’re never accompanied by other arcade games. Taiwan is a country of purists I guess. My favourite part has been the wild and wacky shit that goes in some of them - a 9 pack of toilet roll, a tub of laundry detergent, a carton of milk (UHT I hope), or many capybaras (ofc). 
 
 ![Rich in prizes](/images/posts/tainan/claw.jpeg)
 
