@@ -3,13 +3,13 @@ title: "Tainan to Taitung"
 date: "2026-03-10"
 city: "Tainan to Taitung"
 country: "Taiwan"
-lat: 25.0375
-lon: 121.5625
+lat: 22.99
+lon: 120.185
 excerpt: "Team Taiwan Ultras"
 coverImage: "/images/posts/tainan/cover.jpeg"
 tallCoverImage: true
 images:
-    - src: "/images/posts/taipei/cover.jpeg"
+    - src: "/images/posts/tainan/cover.jpeg"
       caption: "anping fort in the sun"
     - src: "/images/posts/tainan/2.jpeg"
       caption: "it’s us"
@@ -32,11 +32,11 @@ The nature in Tainan was soooo gorg. I'm particularly mad into the Banyan trees 
 Tainan is the home of the original capital of Taiwan, so there was a load of historical sights to mooch about, but the trees and plants were my favourite bit of all the forts and buildings - they've grown everywhere and made it feel like another planet. 
 
 
-![Flowers in Anping](/images/posts/tainan/flowers.jpg)
+![Flowers in Anping](/images/posts/tainan/flowers.jpeg)
 
 Taiwanese proverbs say that the Banyan tree wood is terrible for any useful job like building or burning, so they get left to grow. That means they get big and leafy, and end up being useful for shade - it basically teaches that everyone is good for something. Wholesome I guess?   
 
-![Banyan trees taking over an old warehouse](/images/posts/tainan/banyan.jpg)
+![Banyan trees taking over an old warehouse](/images/posts/tainan/banyan.jpeg)
 
 ### Cool shit that Taiwanese people love
 My next musings are on shit that people here are really into that is interesting. I love when people are really into a particular thing that I have never cared about before. 
@@ -45,20 +45,20 @@ My next musings are on shit that people here are really into that is interesting
     - If you're not already a Team Taiwan ultra, get to know. We were in Tainan for the WBC (world baseball classic) and spent our last night in a bar with diehard Team Taiwan fans commiserating getting knocked out. They shared their dinner with us, said George looked 18 years old, and taught us the Team Taiwan dance ([it slaps, check it out](https://youtu.be/u3V_uAiMZKY?si=3Kqqzbd0xRPXGh35)).  
 
 
-![Team taiwan quenching my thirst](/images/posts/tainan/water.jpg)
+![Team taiwan quenching my thirst](/images/posts/tainan/water.jpeg)
 
 
 2. **Capybaras**
     - So much capybara themed merch everywhere. I didn't even know capybaras were distinguishable from other small brown animals but now I can identify a capybara item a mile off. I'm so locked in that I got a capybara pop socket for my kindle after I snapped my old one on the plane over. Sorry to Liv for once being offended that she said I gave capybara vibes, in hindsight a compliment. 
 
-![Capybara tomato decorating my kindle](/images/posts/tainan/popsocket.jpg)
+![Capybara tomato decorating my kindle](/images/posts/tainan/popsocket.jpeg)
 
-![An IRL capybara baby](/images/posts/tainan/capybara.jpg)
+![An IRL capybara baby](/images/posts/tainan/capybara.jpeg)
 
 3. **Claw machines**
 I thought these were big in Japan but I can't describe the quantity of claws at every street corner. There's claw machine alleyways open 24h everywhere you look, and they're never accompanied by other arcade games. Taiwan is a country of purists I guess. My favourite part has been the wild and wacky shit that goes in some of them - a 9 pack of toilet roll, a tub of laundry detergent, a carton of milk (UHT I hope), or many capybaras (ofc). 
 
-![Rich in prizes](/images/posts/tainan/claw.jpg)
+![Rich in prizes](/images/posts/tainan/claw.jpeg)
 
 
 ### The bike ride that nearly ended it all
@@ -70,7 +70,7 @@ What followed was maybe the most demoralising cycle of my life. We rented the ru
 
 This ride was offset by a wild meal at the end in an industrial fishing port. Freshest sashimi I have probably ever eaten, it slapped. The journey home was significantly chiller after consuming various sea creatures, some beer, and having the wind behind us. 
 
-![Refueling for the ride back](/images/posts/tainan/fish.jpg)
+![Refueling for the ride back](/images/posts/tainan/fish.jpeg)
 
 
 ### What else did we eat? 
@@ -89,7 +89,7 @@ This feels necessary because we've been racking them up. A few notable items:
     - This wasn't necessarily planned, but we realised our skewer was chicken butt mid way through eating and translating a menu. No regrets, was juicy.
     
 
-![Juicy butts](/images/posts/tainan/butt.jpg)
+![Juicy butts](/images/posts/tainan/butt.jpeg)
   
 ### See you on the other side
 Tomorrow we start our intrepid cycling battle against wind and flat tires - I’ll report back when I make it to the other side. In the meantime, here are the answers to a couple FAQs from you guys. 
