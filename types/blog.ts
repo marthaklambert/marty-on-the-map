@@ -1,13 +1,17 @@
-export interface PostFrontmatter {
-  title: string;
-  date: string;
+export interface Coordinate {
   city: string;
   country: string;
   lat: number;
   lon: number;
+}
+
+export interface PostFrontmatter {
+  title: string;
+  date: string;
   excerpt: string;
   coverImage: string;
   tallCoverImage: boolean;
+  coordinates: Coordinate[];
   images?: (string | { src: string; caption?: string })[];
   tags?: string[];
 }

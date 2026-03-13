@@ -75,13 +75,10 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       htmlContent,
       title: data.title,
       date: data.date,
-      city: data.city,
-      country: data.country,
-      lat: data.lat,
-      lon: data.lon,
       excerpt: data.excerpt,
       coverImage: data.coverImage,
       tallCoverImage: data.tallCoverImage,
+      coordinates: data.coordinates,
       images: data.images || [],
       tags: data.tags || [],
     };
@@ -110,33 +107,46 @@ export async function getAllPosts(): Promise<BlogPost[]> {
 export async function getPostLocations(): Promise<PostLocation[]> {
   const posts = await getAllPosts();
 
-  // Map and maintain sort order (newest first)
-  return posts.map(post => ({
-    slug: post.slug,
-    city: post.city,
-    country: post.country,
-    lat: post.lat,
-    lon: post.lon,
-    date: post.date,
-    title: post.title,
-    excerpt: post.excerpt,
-    coverImage: post.coverImage,
-  }));
+  const locations: PostLocation[] = [];
+
+  // Map each post and expand coordinates
+  for (const post of posts) {
+    for (const coord of post.coordinates) {
+      locations.push({
+        slug: post.slug,
+        city: coord.city,
+        country: coord.country,
+        lat: coord.lat,
+        lon: coord.lon,
+        date: post.date,
+        title: post.title,
+        excerpt: post.excerpt,
+        coverImage: post.coverImage,
+      });
+    }
+  }
+
+  return locations;
 }
 
 export async function getTravelStats(): Promise<{ cities: number; countries: number; days: number }> {
   const posts = await getAllPosts();
   if (posts.length === 0) return { cities: 0, countries: 0, days: 0 };
 
-  const cities = new Set(posts.map(p => p.city)).size;
-  const countries = new Set(posts.map(p => p.country)).size;
+  let cities = 0;
+  const countries = new Set<string>();
+
+  for (const post of posts) {
+    cities += post.coordinates.length;
+    post.coordinates.forEach(coord => countries.add(coord.country));
+  }
 
   const dates = posts.map(p => new Date(p.date).getTime());
   const earliest = Math.min(...dates);
   const latest = Date.now();
   const days = Math.round((latest - earliest) / (1000 * 60 * 60 * 24));
 
-  return { cities, countries, days };
+  return { cities, countries: countries.size, days };
 }
 
 export async function getTravelRoutes(): Promise<TravelRoute[]> {

@@ -1,13 +1,14 @@
 ---
 title: "Taipei"
 date: "2026-03-10"
-city: "Taipei"
-country: "Taiwan"
-lat: 25.0375
-lon: 121.5625
-excerpt: "It’s the year of the horse and we’re living it"
+excerpt: "It's the year of the horse and we're living it"
 coverImage: "/images/posts/taipei/1.jpg"
 tallCoverImage: true
+coordinates:
+  - city: "Taipei"
+    country: "Taiwan"
+    lat: 25.0375
+    lon: 121.5625
 images:
     - src: "/images/posts/taipei/1.jpg"
       caption: "Beef noodle soup with mustard greens"

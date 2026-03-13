@@ -202,18 +202,29 @@ function CountryBorders({
           <TravelRoute key={`route-${index}`} route={route} index={index} />
         ))}
         {/* City markers */}
-        {locations.map((location) => {
-          // Find the most recent location
-          const newestLocation = locations.reduce((latest, current) => {
+        {locations.map((location, index) => {
+          // Find the most recent location by date, but only the first occurrence of each slug
+          const uniqueLocations = locations.reduce((acc: PostLocation[], loc) => {
+            if (!acc.find(l => l.slug === loc.slug)) {
+              acc.push(loc);
+            }
+            return acc;
+          }, []);
+
+          const newestLocation = uniqueLocations.reduce((latest, current) => {
             return new Date(current.date) > new Date(latest.date) ? current : latest;
-          }, locations[0]);
+          }, uniqueLocations[0]);
+
+          // Only mark the first occurrence of the newest post as newest
+          const isNewest = location.slug === newestLocation.slug && 
+            locations.findIndex(l => l.slug === newestLocation.slug) === index;
 
           return (
             <CityMarker
-              key={location.slug}
+              key={`${location.slug}-${location.lat}-${location.lon}-${index}`}
               location={location}
               onMarkerClick={onMarkerClick}
-              isNewest={location.slug === newestLocation.slug}
+              isNewest={isNewest}
             />
           );
         })}
@@ -324,7 +335,8 @@ export default function WorldMap({
   onResetView?: (resetFn: () => void) => void;
 }) {
   const [geoJSON, setGeoJSON] = useState<GeoJSON | null>(null);
-  const [selectedLocation, setSelectedLocation] = useState<PostLocation | null>(null);
+  const [selectedLocationCoord, setSelectedLocationCoord] = useState<{ lat: number; lon: number } | null>(null);
+  const [selectedPostIndex, setSelectedPostIndex] = useState(0);
   const [tooltipPosition, setTooltipPosition] = useState<{ x: number; y: number } | null>(null);
   const [isTooltipClosing, setIsTooltipClosing] = useState(false);
   const targetCameraPositionRef = useRef<THREE.Vector3 | null>(null);
@@ -349,18 +361,30 @@ export default function WorldMap({
     return typeof window !== 'undefined' && window.innerWidth < 640 ? 8 : 6;
   }, []);
 
+  // Get all locations at the currently selected coordinate
+  const selectedLocations = selectedLocationCoord
+    ? locations.filter(
+        (loc) =>
+          Math.abs(loc.lat - selectedLocationCoord.lat) < 0.001 &&
+          Math.abs(loc.lon - selectedLocationCoord.lon) < 0.001
+      )
+    : [];
+
+  const selectedLocation = selectedLocations[selectedPostIndex] || null;
+
   const handleResetView = useCallback(() => {
     // Reset camera to initial position (no state changes, just refs)
     targetCameraPositionRef.current = new THREE.Vector3(0, 0, getDefaultZoom());
     targetCameraLookAtRef.current = new THREE.Vector3(0, 0, 0);
 
     // Close tooltip only if it's open
-    if (selectedLocation) {
-      setSelectedLocation(null);
+    if (selectedLocationCoord) {
+      setSelectedLocationCoord(null);
+      setSelectedPostIndex(0);
       setTooltipPosition(null);
       setIsTooltipClosing(false);
     }
-  }, [selectedLocation]);
+  }, [selectedLocationCoord]);
 
   // Expose reset function to parent
   useEffect(() => {
@@ -372,22 +396,27 @@ export default function WorldMap({
   const closeTooltip = () => {
     setIsTooltipClosing(true);
     setTimeout(() => {
-      setSelectedLocation(null);
+      setSelectedLocationCoord(null);
+      setSelectedPostIndex(0);
       setTooltipPosition(null);
       setIsTooltipClosing(false);
     }, 200); // Match the CSS transition duration
   };
 
   const handleMarkerClick = (location: PostLocation, screenX: number, screenY: number) => {
+    const newCoord = { lat: location.lat, lon: location.lon };
+    
     // If tooltip is already open, close it first
-    if (selectedLocation) {
+    if (selectedLocationCoord) {
       closeTooltip();
       setTimeout(() => {
-        setSelectedLocation(location);
+        setSelectedLocationCoord(newCoord);
+        setSelectedPostIndex(0);
         setTooltipPosition({ x: screenX, y: screenY });
       }, 200);
     } else {
-      setSelectedLocation(location);
+      setSelectedLocationCoord(newCoord);
+      setSelectedPostIndex(0);
       setTooltipPosition({ x: screenX, y: screenY });
     }
   };
@@ -399,7 +428,7 @@ export default function WorldMap({
     }
 
     // Close tooltip if open
-    if (selectedLocation) {
+    if (selectedLocationCoord) {
       closeTooltip();
     }
 
@@ -426,7 +455,7 @@ export default function WorldMap({
     targetCameraLookAtRef.current = null;
 
     // Close tooltip when user starts interacting (dragging or zooming)
-    if (selectedLocation) {
+    if (selectedLocationCoord) {
       closeTooltip();
     }
   };
@@ -485,7 +514,7 @@ export default function WorldMap({
       </Canvas>
       {selectedLocation && tooltipPosition && (() => {
         // Smart positioning: close to marker, constrained to viewport
-        const tooltipHeight = 450; // Approximate height
+        const tooltipHeight = selectedLocations.length > 1 ? 520 : 450; // Extra height for multi-post nav
         const tooltipWidth = 384; // max-w-xs = 384px
         const margin = 10; // Minimum margin from edges
         const offset = 5; // Small offset from click point
@@ -573,6 +602,29 @@ export default function WorldMap({
                 <p className="text-xs text-gray-700 leading-relaxed mb-3" style={{ fontFamily: 'Tahoma, Verdana, -apple-system, sans-serif' }}>
                   {selectedLocation.excerpt}
                 </p>
+
+                {/* Multi-post navigation */}
+                {selectedLocations.length > 1 && (
+                  <div className="flex gap-2 mb-3">
+                    <button
+                      onClick={() => setSelectedPostIndex(Math.max(0, selectedPostIndex - 1))}
+                      disabled={selectedPostIndex === 0}
+                      className="flex-1 bg-[#E0E0E0] border-t-2 border-l-2 border-white border-r-2 border-b-2 border-r-[#808080] border-b-[#808080] px-3 py-2 text-xs font-mono font-bold uppercase tracking-wide disabled:opacity-50 active:border-t-[#808080] active:border-l-[#808080] active:border-r-white active:border-b-white"
+                    >
+                      ← Prev
+                    </button>
+                    <div className="flex-1 flex items-center justify-center bg-[#F5F5F5] px-3 py-2 text-xs font-mono font-bold text-black/70">
+                      {selectedPostIndex + 1} / {selectedLocations.length}
+                    </div>
+                    <button
+                      onClick={() => setSelectedPostIndex(Math.min(selectedLocations.length - 1, selectedPostIndex + 1))}
+                      disabled={selectedPostIndex === selectedLocations.length - 1}
+                      className="flex-1 bg-[#E0E0E0] border-t-2 border-l-2 border-white border-r-2 border-b-2 border-r-[#808080] border-b-[#808080] px-3 py-2 text-xs font-mono font-bold uppercase tracking-wide disabled:opacity-50 active:border-t-[#808080] active:border-l-[#808080] active:border-r-white active:border-b-white"
+                    >
+                      Next →
+                    </button>
+                  </div>
+                )}
 
                 <Link
                   href={`/blog/${selectedLocation.slug}`}
