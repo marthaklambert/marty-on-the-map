@@ -2,6 +2,58 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@layer utilities {
+  /* Tight, capped, and centered inline images and figures in prose */
+  .prose figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ECECEC;
+    border: 2px solid #D0D0D0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 2em auto;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .prose figcaption {
+    text-align: center;
+    width: 100%;
+  }
+
+  .prose figure > img,
+  .prose img {
+    display: block;
+    max-height: 420px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  @media (min-width: 640px) {
+    .prose figure > img,
+    .prose img {
+      max-height: 520px;
+    }
+  }
+
+  /* Remove extra margin for images in prose */
+  .prose img {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
