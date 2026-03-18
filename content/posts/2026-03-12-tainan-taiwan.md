@@ -2,12 +2,12 @@
 title: "Tainan to Taitung"
 date: "2026-03-13"
 coordinates:
-  - city: “Tainan”
-    country: “Taiwan”
+  - city: "Tainan"
+    country: "Taiwan"
     lat: 22.99
     lon: 120.185
-  - city: “Taitung”
-    country: “Taiwan”
+  - city: "Taitung"
+    country: "Taiwan"
     lat: 22.7583
     lon: 121.144
 excerpt: "Team Taiwan Ultras"

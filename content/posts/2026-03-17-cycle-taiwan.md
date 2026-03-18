@@ -2,16 +2,16 @@
 title: "The East Rift Rally"
 date: "2026-03-17"
 coordinates:
-  - city: “Chishang”
-    country: “Taiwan”
+  - city: "Chishang"
+    country: "Taiwan"
     lat: 23.1207
     lon: 121.2162
-  - city: “Ruisui”
-    country: “Taiwan”
+  - city: "Ruisui"
+    country: "Taiwan"
     lat: 23.4573
     lon: 121.3560
-  - city: “Hualien”
-    country: “Taiwan”
+  - city: "Hualien"
+    country: "Taiwan"
     lat: 23.9835 
     lon: 121.6025 
 excerpt: "Pedalling through rice paddies"
