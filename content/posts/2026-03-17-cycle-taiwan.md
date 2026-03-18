@@ -20,8 +20,8 @@ tallCoverImage: true
 images:
     - src: "/images/posts/cycle/cover.jpg"
       caption: "Marty in the mirror"
-    - src: “/images/posts/cycle/hand.jpg”
-      caption: “Hand burn perfectly matching raincoat” 
+    - src: "/images/posts/cycle/hand.jpg"
+      caption: "Hand burn perfectly matching raincoat"
     - src: "/images/posts/cycle/2.jpg"
       caption: "one of many napping dogs"
     - src: "/images/posts/cycle/3.jpg"
