@@ -20,6 +20,8 @@ tallCoverImage: true
 images:
     - src: "/images/posts/cycle/cover.jpg"
       caption: "Marty in the mirror"
+    - src: “/images/posts/cycle/hand.jpg”
+      caption: “Hand burn perfectly matching raincoat” 
     - src: "/images/posts/cycle/2.jpg"
       caption: "one of many napping dogs"
     - src: "/images/posts/cycle/3.jpg"
@@ -30,16 +32,16 @@ images:
       caption: "a very scenic sink"
 ---
 
-**The stats** 
+### The stats
 
-Days cycling: 3 
-Distance travelled: 206km 
-Metres climbed: 1196m 
-Dumpling eaten: 18
-Sunburnt hands: 4
-Punctures: 1
-Nosebleeds: 1 
-Electrical assistance: 0 
+    - Days cycling: 3 
+    - Distance travelled: 206km
+    - Metres climbed: 1196m 
+    - Dumpling eaten: 18
+    - Sunburnt hands: 4
+    - Punctures: 1
+    - Nosebleeds: 1 
+    - Electrical assistance: 0 
 
 ### The cycling
 So it turns out this was just really fun and I didn’t need to freak out about the lack of electricity. For sure my favourite thing we’ve done in Taiwan. 
@@ -60,24 +62,25 @@ I’ve not cycled outside of getting from A to B for a long time - perhaps becau
 
 The vibes were really helped by a few things that deserve a shout out: 
 
-- I know I keep saying this but I can’t describe how smooth all the roads and pavements are here
+- **Buttery roads**
+    - I know I keep saying this but I can’t describe how smooth all the roads and pavements are here
     - This is such a weird thing to go on about. But genuinely it’s wild. Cycling is so easy when everything feels like fresh fresh tarmac and there’s no random potholes. 
-- People are literally so cute
+- **People are literally so cute**
     - It’s quite vibes for your ego when random people keep giving you thumbs up wherever you go. I love to have fans especially when they punch the air for you when you’re going up a long hill. Most people are on motorbikes so I think they probably just think you’re insane. 
-- Going the right way 
+- **Going the right way** 
     - Isn’t it so nice to travel with someone who has a good sense of direction and a map. Blessed that my lack of geographical awareness does not run in the family - shoutout to George for a great route.     
 
 There were a few things that sucked too that it would be unbalanced to not mention: 
 
-1. Bringing an inner tube would have been smart
+1. **Bringing an inner tube would have been smart**
     - 40 mins walk to a bike repair shop 15km from the end of day 3 was truly not the one
-2. It just really hurts your ass
-    - So it turns out my legs were entirely fine and the actual problem was many hours of sitting in a saddle. Sore one. 
+2. **It just really hurts your ass okay**
+    - So it turns out my legs were entirely fine and the actual problem was many, many hours of sitting in a saddle. Sore one. 
 
 
 
-### Everything else
-So the cycling itself was wicked, but I think my favourite part is that it takes you to places we wouldn’t have otherwise gone, and meant we saw a load of wacky/cool/beautiful shit that we otherwise wouldn’t have encountered.
+### The stuff that wasn’t cycling
+So whilst the cycling itself was wicked, but I think my favourite part is that it takes you to places we wouldn’t have otherwise gone, and meant we saw a load of wacky/cool/beautiful shit that we otherwise wouldn’t have encountered.
 
 1. **Being outside**
     - The nature smelt so GOOD. I think I induced my hay fever by sniffing so much, but everything was just so fresh. Most of our route went through forests or fields of rice, sweet potatoes and pumpkins which all attract endless butterflies and birds. 
