@@ -2,8 +2,8 @@
 title: "Hong Kong"
 date: "2026-03-17"
 coordinates:
-  - city: “Hong Kong”
-    country: “Hong Kong”
+  - city: "Hong Kong"
+    country: "Hong Kong"
     lat: 22.3027
     lon: 114.1772 
 excerpt: "Blade runner but with trees"
