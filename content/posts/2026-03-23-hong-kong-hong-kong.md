@@ -63,7 +63,9 @@ Hong Kong felt very Paris in this sense. You know that energy where it’s a war
 
 ![The world’s best bar?](/images/posts/hongkong/bar.jpg)
 
-### Snacks
+
+### Snacks
+
 So HK food really shows what a combo of Chinese, British and French influences it is. There were definitely two distinct vibes - super cheap trad HK food spots that kick you out as soon as you put your spoon down, and then more spenny chronically online vibes where everyone is pausing to take their TikTok content. Our top items were: 
 
 1. **French toast**
@@ -87,5 +89,5 @@ So HK food really shows what a combo of Chinese, British and French influences i
 Honourable mentions to dim sum, fresh pineapple bun, tapioca desserts, and wonton soup. 
 
 ### On to the mainland
-We’re now on the train to Yangshuo in mainland China. Saying goodbye to the sweet sweet comforts of Hong Kong (the English language, using Google Maps, normal sit down toilets and decaf iced oat lattes). We’re spending 3 days in the Karst mountain (Avatar vibes) before continuing around China. See u there :-)    
+We’re now on the train to Yangshuo in mainland China. Saying goodbye to the sweet sweet comforts of Hong Kong (the English language, using Google Maps, normal sit down toilets and decaf iced oat lattes). Posting this blog has involved much juggling of VPNs. We’re spending 3 days in the Karst mountain (Avatar vibes) before continuing around China. See u there :-)    
 
