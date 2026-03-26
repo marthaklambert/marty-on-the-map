@@ -81,9 +81,9 @@ The town centre of Yangshuo is genuinely wild. If you live in China I'm sure it'
     - So there is a lot of nightlife in Yangshuo, and it all has the same formula. There's a stage with 5 people paid to sing for the entire night, and then tonnes of tables of Chinese people on their silly holiday vibes getting fucked up and waving massive blow up glowing sticks in the air. The vibe of the bands is a sliding scale from old dudes jamming to girls more aimed at stag dos. Whatever the vibe, they always put the hottest ones by the door (sometimes with a cute dog to make it even more enticing). Everyone (singers, crowd, waiters) was chain smoking inside for the entire evening. 
  
 2. The Olympic opening ceremony v2 
-    - Yangshuo is home to this mental performance that they run twice a day that is the scale and vibe of the olympics opening ceremony. It's directed by the dude that did the original one in Beijing (Max would like to add he is also a famous film director). It's insane, there is 700 performers all on a lake at once, singing, throwing fire around and splashing in unison. There was seemingly no qualms about animals or children so there was the odd cow and some cormorants dancing too.
+    - Yangshuo is home to this mental performance that they run a sold out performance twice a day that is the scale and vibe of the olympics opening ceremony. It's directed by the dude that did the original one in Beijing (Max would like to add he is also a famous film director). It's insane, there is 700 performers all on a lake at once, singing, throwing fire around and splashing in unison. There was also seemingly no qualms about working with animals or children so there was the odd cow and some cormorants dancing too.
 
-![TODO](/images/posts/yangshuo/impression.jpg)
+![reflections on the lake](/images/posts/yangshuo/impression.jpg)
  
    
 3. They love a white girl
