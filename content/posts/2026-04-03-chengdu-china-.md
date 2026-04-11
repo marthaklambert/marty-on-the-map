@@ -6,7 +6,7 @@ coordinates:
     country: "China"
     lat: 30.5723
     lon: 104.0665 
-excerpt: "TODO"
+excerpt: "The city of aura and pandas"
 coverImage: "/images/posts/chengdu/cover.jpg"
 tallCoverImage: true
 images:
@@ -61,7 +61,7 @@ So Sichuan is home to 80% of the world's wild pandas, I think around 1500. Cheng
 
 We popped to a panda wildlife spot a little out of the city, and I was actually so taken by those big stupid guys. Not gonna lie I've always been kind of a hater of pandas as iconography, it's kinda like my issues with penguins. I've never vibed so I didn't think I'd be blown away by their vibes but IRL these guys are insane I'm so into them. Like what do you mean that's an animal that can exist in the wild and exists because of evolution. They're so chill they love napping on shelves and cracking bamboo, I love their lil paws. 
 
-![Now I want to nap here](/images/posts/chengdu/pandaasleep.jpg)
+![Now I want to nap here](/images/posts/chengdu/pandasleep.jpg)
 
 
 ### The capital of Gay China
@@ -113,7 +113,7 @@ Aside from the cooking though, there was a lot of cool shit along the way.
 Other Chengdu food shoutouts include 
 - Beef fat skewers (bit my tongue so hard eating these I think I did lasting damage, but we ordered 3 more).  
 
-![Ooft](/images/posts/chengdu/skewers.jpg)
+![Ooft](/images/posts/chengdu/skewer.jpg)
  
 - Fresh strawbs - they're so in season and every corner you can buy a massive punnet for 60p. Sorted me out when I was in the trenches of my gay china hangover
 
