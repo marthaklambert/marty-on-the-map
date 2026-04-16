@@ -6,7 +6,7 @@ coordinates:
     country: "Indonesia"
     lat: 8.6490
     lon: 115.1379 
-excerpt: ""
+excerpt: "Johnny Utah who?"
 coverImage: "/images/posts/bali/cover.jpg"
 tallCoverImage: true
 images:
@@ -19,7 +19,7 @@ images:
     - src: "/images/posts/bali/4.jpg"
       caption: "Baby monkey was kinda freaky"
     - src: "/images/posts/bali/5.jpg"
-      caption: "A daily presurf breakfast"
+      caption: "A daily pre-surfing brekkie"
     - src: "/images/posts/bali/6.jpg"
       caption: "This dude musta been sweating it was SO WARM"
     - src: "/images/posts/bali/7.jpg"
@@ -42,8 +42,8 @@ The camp itself was such a chill spot to hang so I spent a lot of time there, so
 ![Huge pool lizard but apparently this one is just a baby](/images/posts/bali/lizard.jpg)
 
 
-## The surfing
 
+## The surfing
 Surfing is so fun I just want to snap my fingers and be a really cool iconic surfer but unfortunately that's hard work, ugh. Having a week to do it meant I could properly get my head into it in a way I have never managed when having a single lesson for a couple hours then giving up. 
 
 ![Baby boards on the beach](/images/posts/bali/boards.jpg)
@@ -58,7 +58,7 @@ We watched Point Break on one of the evenings and I think I am yet to channel Ke
 ![Surfing Marty (I promise I looked cooler in the end I just only have a pic from day 2 OKAY)](/images/posts/bali/surfing.jpg)
 
 
-### Other items
+### The rest of the agenda
 Alongside the surfing I did a little sampling of other items, reviews below: 
 
 **Yoga**: I thought I liked a bit of Yoga as much as the next person, but I learnt that I truly could not yoga retreat. Fun for a few days, and then I realised that being slow and quiet that regularly for that long is too hard work for me (probably exactly why I should do it) but I opted to have more fun instead. Also not helped by one of the guests being a 60 yr old Belgian yoga teacher who could fold like a pretzel, like stop showing off dude. 
@@ -76,7 +76,7 @@ Alongside the surfing I did a little sampling of other items, reviews below:
 ## The silly vibes
 My favourite thing about the trip was just all the gorgeous people I met and hung out with doing silly shit! Was so nice to travel solo but hang out with so many chill people, like truly feeling warm and toasty in the heart. Some items that stand out: 
 
-### Chill people
+### The wild variety of people
 **The other guests**
 So there were about 10 other people at the camp who rotated in and out during my time there. It was a really diverse mix of energy which was funny to observe and be part of. To describe a few of the characters, we had:
 1. A Californian car dealership owner dad and his 18 son who was insanely good at long boarding and JACKED. Made you feel extra bad at surfing at the weekly video analysis session where everyone gathers round and watches each other's technique. He was deffo Johnny Utah energy. 
@@ -92,9 +92,9 @@ So there were about 10 other people at the camp who rotated in and out during my
 **The instructors**
 I ended up spending a load of time chilling with the Indonesian surfing instructors also - they were just very chill and silly (and definitely more relaxing than some of the guests). Because the camp itself is so chill everyone tends to just chill there and chat shit and it was such a nice energy to absorb. Was super lovely to learn more about them and Indonesia and Bali in contrast to the super touristy Canggu vibes. I have learnt actually quite a large number of fun Indonesian words. Bagus sekali. 
 
-They all have such wild and interesting stories of growing up in different places, making palm oil, panning for gold, raising cows (one of them had a cow that they named Brody which for some reason I'm obsessed with as a cow name).  Other highlights include tales of police bribes where you take 5 policemen out for a nice lunch to get out of a fine. 
+They all have such wild and interesting stories of growing up in different places, making palm oil, illegally panning for gold, hunting pythons, raising cows (one of them had a cow that they named Brody which for some reason I'm obsessed with as a cow name).  Other highlights include tales of police bribes where you take 5 policemen out for a nice lunch to get out of a fine. 
 
-Everyone from Indonesia is also like literally non stop chain smoking. The tobacco industry is literally insane there. Vapes only for tourists, everyone else on the real shit. I did sample one clove flavoured cigarette that slapped. 
+Everyone from Indonesia is also like literally non stop chain smoking. The tobacco industry is literally insane there. Vapes only for tourists, everyone else on the real shit. I did sample my first clove flavoured cigarette which was a fun combo.
 
 I also accrued various Indonesian nicknames across the week, highlights were Mozzy (short for mozzarella bc they thought my name sounded like that), Bintang (I thought it was after the local beer but it also means star) and Martabak (a sweet Indonesian snack). 
 
@@ -130,11 +130,11 @@ I literally cannot stress enough how mentally spicy people like their food there
 Also funny shoutout to their rule that you have to finish your rice because if you don't it cries because its friends are already in your belly. Lmao. 
 
 ## Over and out
-Bali completed - has been a super fun leg and for sure made me realise that I wanna do some more solo travelling, and maybe a little more surfing if I somehow become more legendary. 
+Bali completed - has been a super fun leg and for sure made me realise that I wanna do some more solo travelling, and maybe a little more surfing if I somehow lock in and become more legendary. 
 
 It's been sooo nice, feeling very grateful to have hung out with such chill cool people and mega brain recharged after more hectic travel for the first month. 
 
-Next up is Korea with my mum, will see you there. 
+Next up is Korea with my mum, will see ya there. 
 
 
 
