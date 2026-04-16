@@ -31,7 +31,7 @@ images:
 
 Guys we love Chengdu big time. Last week I said it was the centre of pandas and the capital of gay China, turns out it's also the city of pure aura. The kinda place that makes you wanna stay 3 more days with no plans because walking about and seeing what you find is so fun. We were staying in Yulin, and it just made me wanna do nothing but mooch about and live the sweet sweet Chengdu life. An honestly wildly flat city compared to Chongqing, it took my eyes time to adjust to lack of hill. What it lacks in terrain it wins in vibe.
 
-## What went down 
+## What went down
 I am struggling to link this shit together in a coherent fashion because it was so varied in energy, but here are a few things I loved: 
 
 ### The People's Park
@@ -59,7 +59,7 @@ My favourite bit of the league is the team names, idk if it's just bad translati
 ### More pandas than people
 So Sichuan is home to 80% of the world's wild pandas, I think around 1500. Chengdu has like 20 million humans. But I am literally so convinced that there is about 100 panda themed items for every person. Every single street has at least one panda shop that is entirely and completely full of panda merch. Panda pen. Panda backpack, panda ice cream, panda ears, it's literally endless. 
 
-We popped to a panda wildlife spot a little out of the city, and I was actually so taken by those big stupid guys. Not gonna lie I've always been kind of a hater of pandas as iconography, it's kinda like my issues with penguins. I've never vibed so I didn't think I'd be blown away by their vibes but IRL these guys are insane I'm so into them. Like what do you mean that's an animal that can exist in the wild and exists because of evolution. They're so chill they love napping on shelves and cracking bamboo, I love their lil paws. 
+We popped to a panda wildlife spot a little out of the city, and I was actually so taken by those big stupid guys. Not gonna lie I've always been kind of a hater of pandas as iconography, it's kinda like my issues with penguins. I've never vibed so I didn't think I'd be blown away by their vibes but IRL these guys are insane I'm so into them. Like what do you mean that's an animal that just exists on earth naturally. They're so chill they love napping on shelves and cracking bamboo, I love their lil paws. 
 
 ![Now I want to nap here](/images/posts/chengdu/pandasleep.jpg)
 
