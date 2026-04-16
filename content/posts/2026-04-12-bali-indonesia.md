@@ -107,7 +107,8 @@ They have a few guitars, and this drum box that you sit on and tap in different 
 
 So mostly all my evenings involved chilling on a rug on the grass, whilst bats swooped about jamming to a really funny combo of songs. We've got Country Roads to Rod Stewart to Blink 182 to Ed Sheeran to Bob Marley. But the live vibes actually adds so much that any song that normally might give you the ick sounds super nice.
 
-The music continues all the time also - I did a lot of sitting on the back of the home from surfing to avoid the traffic and lack of aircon enforced by Mr Yoga teacher, and the surfer driving it sang Wonderful Tonight acapella approx 7 times back to back.  
+The funny songs appear everywhere also. A lot of my days included a 40 minute drive on the back on one of the instructor's scooters due to lack of car room. This was kinda a blessing though because it meant I got the wind in my hair instead of sitting in the car with the enforced lack of aircon. 
+All of these journeys involved the driver singing the entire way back, but specifically Wonderful Tonight by Eric Clapton 7x in a row, oof.
 
 ### British vibes
 One of the funniest things about the surf instructors was how hilarious they found my British accent. They hang out with a big variety of accents, but clearly they love to practice a British one the most. But it wasn't like a shit posh impression like when American's do it, it was literally just my voice. 
@@ -119,7 +120,7 @@ So the final agenda item is the food.
 
 I ate a lottttt of fresh juicy fruit, specifically the dragon fruit, pineapple and mango is crazy good out there. Fruit is actually one of my fave things about travelling it's just so GOOD when it's actually ripe and fresh and in a country where it grows normally, fuck. 
 
-I also tried a lot of fun Indonesian food by realising the bets technique was to copy whatever the instructors ordered (Bali belly risked but I did not succumb). Everything was a really tasty combo of salty and crunchy and savoury vibes, a lot of fun pastry or fried snack vibes, and a lot of fun sauces.  
+I also tried a lot of fun Indonesian food by realising the best technique was to copy whatever the instructors ordered (Bali belly risked but I did not succumb). Everything was a really tasty combo of salty and crunchy and savoury vibes, a lot of fun pastry or fried snack vibes, and a lot of fun sauces.  
 
 I literally cannot stress enough how mentally spicy people like their food there though. Whatever you order comes with sambal on the side, which is this kinda sour garlicky chilli sauce. It's hotter than the hottest hot sauce Max has at ours, which are hot enough that I'd just do some little dabs of those on a meal. Half the euro people can't touch it, I'm eating like a couple 50p piece sizes throughout the entire meal, and then the Indonesian dudes are having like 2 bags of it, they are built different. They all say that they are small but spicy, kinda like what they say about Sichuan girls. 
 
