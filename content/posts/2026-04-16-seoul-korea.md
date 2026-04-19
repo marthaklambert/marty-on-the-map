@@ -1,12 +1,12 @@
 ---
 title: "Seoul"
-date: "2026-16-03"
+date: "2026-04-16"
 coordinates:
   - city: "Seoul"
     country: "Korea"
     lat: 37.5503
     lon: 126.9971 
-excerpt: "A city for moochmaxxing"
+excerpt: "A city  moochmaxxing"
 coverImage: "/images/posts/seoul/cover.jpg"
 tallCoverImage: true
 images:
