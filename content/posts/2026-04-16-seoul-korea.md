@@ -6,7 +6,7 @@ coordinates:
     country: "Korea"
     lat: 37.5503
     lon: 126.9971 
-excerpt: "A city  moochmaxxing"
+excerpt: "Studying the art of moochmaxxing"
 coverImage: "/images/posts/seoul/cover.jpg"
 tallCoverImage: true
 images:
@@ -38,7 +38,7 @@ Some highlights:
 1. **Dongmyo flea market**
     - This was a street market where people are selling everything you can imagine, all laid out on the floor on sheets. Wild stacks of books falling everywhere, guitars, tarot readings, fishing equipment - they got you. 
     - My favourite part was all T-shirts in cool vintage spots being the lowest tier of charity shop item in the UK. I think because of the language barrier, they ship all the weird single use charity tees out there - it was like racks on racks of "2024 Minneapolis walk for cervical cancer", "I'm a mental health volunteer", "Accountants against brain injuries". So good. 
-2. **The biggest habadashery in Asia**
+2. **The biggest habadashery in asia**
     - There is no way to accurately describe the insane scale of this place, it was nothing I have ever experienced. 5 floors, 4 buildings, just filled back to back to back with sewing shit. You know that combo of lights and scale and intensity that makes you forget who you are and that you've ever seen the sun or breathed the fresh air. 
     - We walked in circles for a while until we could no longer distinguish one fabric swatch from the next. Left empty handed aside from some new chalk. 
 
@@ -56,7 +56,7 @@ Some highlights:
     - We spent our final night at the baseball watching one of Seoul's team - the Twins play the Busan Giants. Baseball is SO FUN here - everyone is so into it - gender and age balance is mad diverse. Everyone in Seoul seems to get off work in the mood for a good time, grab their tinnies of Cass and some snacks and head in. There's cheerleading teams for both sides that are elevated in the middle of the stadium, and each team has about 10 different songs that all the fans know the words to. We drank Cass (local beer) from 1L cups and just absorbed the vibes. The Busan Giants won, but maybe we were the true winners for the fun we had along the way. 
     - The merch also slapped so I had to cop some. 
 
-![No. 1 twins fan](/images/posts/seoul/baseball.jpg)
+![Go twins](/images/posts/seoul/baseball.jpg)
 
 
 ## What we ate
@@ -96,7 +96,7 @@ The theme of Korean food so far has been DIY. So many places involve cooking you
 ![Broth part 2](/images/posts/seoul/broth2.jpg)
  
 6. **Baked goods**
-    - They are so GOOD here. We've had a black sesame bun, cappuccino bread, but our favourite is salt bread. It's like if a croissant and a freshly baked loaf of buttery bread had a baby. Extra points because the places that cook them seem to make their staff wear handmaids tale bonnets and I love that.  
+    - They are so GOOD here. We've had a black sesame bun, cappuccino bread, but our favourite is salt bread. It's like if a croissant and a freshly baked loaf of buttery bread had a beautiful beautiful baby. Extra points because the places that cook them seem to make their staff wear handmaids tale bonnets and I love that.  
 
 
 ![Salt bread forever](/images/posts/seoul/saltbread.jpg)
