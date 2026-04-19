@@ -63,13 +63,13 @@ Some highlights:
 The theme of Korean food so far has been DIY. So many places involve cooking yourself which is funny when you don't know what you're supposed to do. We've got by on nice strangers pitying us and guessing. Some of our faves: 
 
 1. **Makgeolli**
-    - I love Mageolli so I was very excited to sample the good stuff in Korea. It's a drink made from fermented rice, a little sake-ish, a little sweeter, a little fizzy - and about 4%.  We headed to a spot where they brew their own, and I was so into the Korean melon number. Melon is truly my favourite flavour in the world. Also tried a blood orange situation and a bamboo one which were fun. 
+    - I love makgeolli so I was very excited to sample the good stuff in Korea. It's a drink made from fermented rice, a little sake-ish, a little sweeter, a little fizzy - and about 4%.  We headed to a spot where they brew their own, and I was so into the Korean melon number. Melon is truly my favourite flavour in the world. Also tried a blood orange situation and a bamboo one which were fun. 
 
 
 ![Like a glass of milk](/images/posts/seoul/milk.jpg)
 
  
-2. **Heottok** 
+2. **Hotteok** 
     - This is like a cross between a pancake a donut and a good time. It's this little round fried pastry, filled with cinnamon and sugar - it smells genuinely incredible. Shoutout to Flo from Leicester who we linked up with out here for introducing us. 
  
 3. **Banchan**
