@@ -85,7 +85,7 @@ The theme of Korean food so far has been DIY. So many places involve cooking you
  
     - Another theme in our "eat at any spot that is super busy with Korean people". We stumbled across this at lunch, and ended up on a true flavour quest that took us the next 2 hours. As soon as you enter a giant metal pot is placed on the table with a roughly chopped entire chicken and water, spring onions and ginseng. We had to rely on the pity of the ladies next to us who found it very funny, but guided us through many steps and courses all from the same pot.  
     - First is a DIY dipping sauce that you mix with soy, garlic, gochujang, vinegar and chives. 
-    - Next, tteokbokki - they chewy Korean rice cakes. They chuck these in and you grab them out as soon as they float to the top and dip them in your sauce. 
+    - Next, tteokbokki - chewy Korean rice cakes. They chuck these in and you grab them out as soon as they float to the top and dip them in your sauce. 
     - Alongside this, you stir a load of kimchi into the broth and let it cook down
     - Then once the potatoes are soft, it means the chicken is ready, so you fish those out, and try and fail to elegantly eat chicken from the bone with chopsticks. 
     - Meanwhile, the broth has reduced wayyyyy down from super clear to this thick bright yellow colour. You throw in noodles and eat them as your final course. The broth tastes insanely good at this point, so juicy and chickeny. Feels like it has made me healthy for the next 3 months.                                                                                                                                                        
