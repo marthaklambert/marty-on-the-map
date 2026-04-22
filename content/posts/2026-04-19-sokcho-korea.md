@@ -6,7 +6,7 @@ coordinates:
     country: "Korea"
     lat: 38.2042
     lon: 128.5884 
-excerpt: ""
+excerpt: "The Grimsby of Korea?"
 coverImage: "/images/posts/sokcho/cover.jpg"
 tallCoverImage: true
 images:
@@ -21,7 +21,7 @@ images:
     - src: "/images/posts/sokcho/5.jpg"
       caption: "one of many bridges"
     - src: "/images/posts/sokcho/6.jpg"
-      caption: "swag hesdtorches encouraged"
+      caption: "swag headtorches encouraged"
  
 ---
 
@@ -39,11 +39,14 @@ So as I said, we wanted to breathe some fresh air, see some trees, yada yada. I 
 I keep being struck by how wildly different the nature feels from place to place on my travels and Seoraksan was another jump to an entirely new shade of green. To categorise my takes on the nature so far,
 
 Taiwan: layered, dangly and everywhere
+
 Hong Kong: dense, spikey and a lil drier
+
 Yangshuo: alien pastoral vibes
+
 Bali: aggressively bright green and lush 
 
-The vibes here are so new, it's very piney, much sparser, and filed with these huge smooth flat rocks, and lots of wild rhodedendrons. It feels almost super minimalist and clean, like someone has curated it.  
+The vibes here are so new, it's very piney, much sparser, and filled with these huge smooth flat rocks, and lots of wild rhodedendrons. It feels almost super minimalist and clean, like someone has curated it.  
 
 ![rocks n trees](/images/posts/sokcho/park.jpg)
 
