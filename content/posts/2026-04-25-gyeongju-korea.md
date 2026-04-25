@@ -74,7 +74,7 @@ Some lil favourites from our time here:
 
 
 ### Bingsu chronicles 
-Now also feels like the right time to share our adventures in Bingsu (Korean shaved ice). After an intro in Taiwan I've been somewhat laser focused on exploring the breadth and depth of the world of Bingsu. So far we have eaten 5. It's just the dream light fluffy cold sfternopn treat. Bingsu is truly a way of life. In Korea the classic is roasted soybean powder and tteok (the chewy rice cakes again, they can do it all). 
+Now also feels like the right time to share our adventures in Bingsu (Korean shaved ice). After an intro in Taiwan I've been somewhat laser focused on exploring the breadth and depth of the world of Bingsu. So far we have eaten 5. It's just the dream light fluffy cold afternoon treat. Bingsu is truly a way of life. In Korea the classic is roasted soybean powder and tteok (the chewy rice cakes again, they can do it all). 
 
 ![a literal mountain](/images/posts/gyeongju/mountain.jpg)
 
@@ -86,7 +86,7 @@ To categorise our experiences:
 
 **Best**: Black sesame and red bean in Seoul. Sweet but kinda umami, mad light texture, toppings distributed throughout, and extra sauce on the side. Dreamy. 
 
-Red bean is a classic dessert flavour in Asia which I've been grappling with on this trip. They literally are just like small kidney beans and I can't quite get over the beaniness. I had a dip after ordering a red bean porridge and it was the exact flavour and texture of refried beans. But Bingsu has changed my tune on the, and I think I. I to lil guys now. 
+Red bean is a classic dessert flavour in Asia which I've been grappling with on this trip. They literally are just like small kidney beans and I can't quite get over the beaniness. I had a dip after ordering a red bean porridge and it was the exact flavour and texture of refried beans. But Bingsu has changed my tune on them and I think I'm into the lil guys now. 
 
 Still on my quest, gonna find one more version in Seoul, and then I'm simply gonna have to find it in London. 
 
@@ -128,9 +128,9 @@ A truly wild and wacky place. We finished with a walk round the lake in Andong w
 
 
 ### Leg 4 complete! 
-This is my last Korea post! We headed back to Seoul now for a dreamy couple nights involving cheesy dakgalbi a few hours of karaoke, and getting a massive bruise from being hit by my own uber. 
+This is my last Korea post! We headed back to Seoul  for a dreamy couple final nights involving cheesy dakgalbi a few hours of karaoke, and a massive bruise from being hit by my own uber. 
 
-We've both really loved it Korea, it's been wicked! Going to miss mugwort flavoured things, the moon being sideways, and having loads of tiny sides with every meal. Will not miss the confusing process of wet rooms and designated wet and dry slippers, and the uniquely terrible electrical outlets. 
+We've both really loved Korea, it's been wicked! Going to miss mugwort flavoured things, the moon being sideways, and having loads of tiny sides with every meal. Will not miss the confusing process of wet rooms and designated wet and dry slippers, and the uniquely terrible electrical outlets. 
 
 Our biggest achievement of the trip was being able to distinguish the words for hello and goodbye by the end. Honestly so much harder than it sounds. 
 
@@ -138,7 +138,7 @@ It's also been so fun to go away with mum, and it's added a load of novelty and 
 
 ![supplements for horses](/images/posts/gyeongju/tablets.jpg)
 
-Now I'm at the airport about to head to Seattle and continue my circumnavigation of the globe. Im excited for a switch up! I think my enthusiasm for this vibe of sightseeing is slowly waning so it's the perfect time to inject with some different energy, and hopefully meet a real life vampire. 
+Now I'm at the airport about to head to Seattle and continue my circumnavigation of the globe. As Max said, another other side of the world. Im excited for a switch up! I think my enthusiasm for this vibe of sightseeing is slowly waning so it's the perfect time to inject with some different energy, and hopefully meet a real life vampire. 
 
 Feeling slightly eek about how close I am to working again, but that's a problem for another day. 
 
