@@ -104,7 +104,8 @@ We went for an absolutely mental meal in Gyeongju where we ordered the set menu 
 
 Was so full when we left that food baby doesn't capture it, a literal food child. 
 
-### Hahoe village
+
+### Hahoe village
 As part of our agenda recalculation, we booked a night in Hahoe, a small folk village near Andong where everyone's last name is Hoe. It was incredibly cute, thatched old houses and windy roads, but honestly mostly it was very surreal and hilarious. 
 
 1. **Taxi driver**
